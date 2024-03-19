@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+
+}
+
+h2{
+  text-align: center;
+  padding: 10px;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px white;
+}
+#home{
+  margin-top: 100px;
+  text-align: center;
+  text-shadow: 3px 5px 5px black;
+  color: white;
+}
+#span-1{
+  color: rgb(238, 24, 24);
+}
+#span-2{
+  color: rgb(27, 246, 7);
+}
+
+#table{
+  width: 90%;
+  height: 20vh;
+  margin-left: 40px;
+ }
+ #label{
+  margin-left: 10px;
+ }
+ #input{
+  width:300px;
+  margin-left: 10px;
+}
+#submitbtn{
+  position: relative;
+  left: 80px;
+  top:10px;
+  color: white;
+}
+#resetbtn{
+  position: relative;
+  left: 120px;
+  top:10px;
+  color: white;
+}
+form{
+  position: absolute;
+  left:480px;
+  top:60px;
+  background-color: rgb(68, 159, 182);
+  padding: 5px;
+  font-size: 11px;
+  border-radius: 6px;
+  
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #ebe048 0%, #85fd85 100%);
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Page content styles */
+.page-content {
+  padding: 20px;
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
